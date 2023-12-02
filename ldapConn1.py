@@ -9,7 +9,7 @@ conn = Connection(server, 'Administrator@shivareddy.domain.local','Harikam@01072
 conn.search('dc=domain,dc=local','(&(objectclass=user))')
 entry = conn.entries[0]
 print(entry)
-#print(conn)
+print(conn)
 #response = json.loads(conn.response_to_json())
 #print(response)
 
