@@ -7,7 +7,7 @@ domain_name = 'your_domain'
 user_name = 'your_username'
 password = 'your_password'
 
-format_string = '{:25}   {:>6}   {:19}   {:19}   {}'
+format_string = '{:25}   {:>6}   {:19}   {:20}   {}'
 print(format_string.format('User', 'Logins', 'Last Login', 'Expires', 'Description'))
 
 server = Server(server_name, get_info=ALL)
